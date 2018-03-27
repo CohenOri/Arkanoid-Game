@@ -1,0 +1,84 @@
+# Level 1
+
+START_LEVEL
+level_name: Summer Time =)
+ball_velocities:0,550
+background:image(background_images/summer.jpg)
+paddle_speed:500
+paddle_width:270
+block_definitions:definitions/summertime_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:15
+START_BLOCKS
+-
+-
+--a-a-a-a-a
+-
+-
+-
+-
+b-b-b-b-b-b-b
+-
+-
+-
+-
+-
+-a--a--a
+----
+END_BLOCKS
+END_LEVEL
+
+# Level 2
+
+START_LEVEL
+level_name:Too Sweet!
+ball_velocities:45,550 -45,550 
+background:image(background_images/sweet.jpg)
+paddle_speed:600
+paddle_width:200
+block_definitions:definitions/toosweet_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:10
+START_BLOCKS
+-
+-----b---b--
+-
+-
+-----b-b-b--
+-
+-
+---a-a-a-a-a-
+----
+END_BLOCKS
+END_LEVEL
+
+# Level 3
+
+START_LEVEL
+level_name: Awesome Mustache
+ball_velocities:60,550
+background:image(background_images/awesome.png)
+paddle_speed:650
+paddle_width:250
+block_definitions:definitions/awesomemustache_block_definitions.txt
+blocks_start_x:25
+blocks_start_y:80
+row_height:25
+num_blocks:20
+START_BLOCKS
+-
+-----b---b--
+-a-a-b-a-a
+-
+-----b-b-b--
+-
+-b-b-a-b-b
+-a-a-a-a-a--
+----
+
+END_BLOCKS
+END_LEVEL
